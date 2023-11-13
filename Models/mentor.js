@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = require('mongoose')
 
 const MentorSchema = new mongoose.Schema({
   name: String,
@@ -7,4 +7,4 @@ const MentorSchema = new mongoose.Schema({
 
 const Mentor = mongoose.model("Mentor", MentorSchema);
 
-export default Mentor;
+module.exports=Mentor
