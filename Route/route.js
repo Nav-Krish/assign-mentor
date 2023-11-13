@@ -147,4 +147,4 @@ router.get("/previous-mentor-for-student/:studentId", async (req, res) => {
   }
 });
 
-export default router;
+module.exports=router;
